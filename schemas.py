@@ -1,12 +1,12 @@
 pet = {
-    "type": "object",
-    "required": ["name", "type"],
-    "properties": {
-        "id": {
+     "type": "object",
+     "required": ["name", "type"],
+     "properties": {
+       "id": {
             "type": "integer"
         },
         "name": {
-            "type": "integer"
+            "type": "string"
         },
         "type": {
             "type": "string",
@@ -15,6 +15,6 @@ pet = {
         "status": {
             "type": "string",
             "enum": ["available", "sold", "pending"]
-        },
-    }
+        }
+}
 }

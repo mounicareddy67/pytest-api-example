@@ -20,7 +20,7 @@ https://www.python.org/downloads/
 
 ```bash
 git clone https://github.com/automationExamples/pytest-api-example.git
-pip install requests pytest pyhamcrest jsonschema pytest-html flask_restx flask
+pip3 install requests pytest pyhamcrest jsonschema pytest-html flask_restx flask
 ```
 
 ### Recommended vscode extensions
